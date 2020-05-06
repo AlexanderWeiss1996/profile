@@ -1,0 +1,123 @@
+@import url("http://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Poppins:300,400,500,700");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&family=Open+Sans&display=swap')
+
+body {
+  background-color: black;
+  font-family: Open Sans;
+  font-size: 15px;
+  line-height: 1.8;
+}
+
+img {
+  transition: ease all 5s;
+  border-radius: 10px 10px 10px 10px;
+}
+
+img:hover {
+  opacity: .7;
+  border-radius: 100px 100px 100px 100px;
+}
+
+h1, h2 {
+  color: black;
+  font-family: Montesrrat;
+  letter-spacing: 10px;
+  font-size: 35px;
+  line-height: 1.9;
+  font-weight:  bold;
+  text-align: center;
+}
+
+h2 {
+  font-size: 15px;
+  color: rgb(249, 129, 129);
+}
+
+h3 {
+  font-size: 25px;
+  color: rgb(249, 129, 129);
+}
+
+a {
+  color: rgb(249, 129, 129);
+  text-decoration: none;
+}
+
+p {
+  text-align: center;
+  font-weight: 100;
+  line-height: 1.9;
+}
+
+#button {
+  transition: ease all 2s;
+  background-color: rgb(249, 129, 129);
+  padding: 10px 30px;
+  color: white;
+  border-radius: 5px 5px 5px 5px;
+  text-decoration: none;
+}
+
+#button:hover {
+  opacity: .3;
+  border-radius: 10px 10px 10px 10px;
+}
+
+#list {
+  width: 900px;
+  padding: 0px;
+}
+
+#Bericht {
+  color:white;
+  text-align: center;
+  background-color:rgb(249, 129, 129);
+}
+
+#header {
+  background-color: rgb(255, 219, 219);
+}
+
+#footer {
+  width: 900px;
+  padding: 0px;
+  background-color: rgb(255, 219, 219);
+}
+.container {
+  text-align: center;
+  padding: 60px;
+  width: 800px;
+  margin: 10px auto;
+  border-radius: 4px;
+  box-shadow: 0 0 10px rgba(211, 161, 153, 0.3);
+}
+
+.inline {
+  display: inline-block;
+  list-style: none;
+  padding: 15px;
+  margin: 0px;
+}
+
+i {
+  font-size: 50px;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
